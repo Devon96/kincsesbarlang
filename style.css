@@ -1,0 +1,47 @@
+#gamearea {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    width: 500px;
+    border: solid gray 2px;
+}
+.mezo {
+    position: absolute;
+    z-index: 0;
+    border: solid #ccc 1px;
+}
+.lada {
+    z-index: 1;
+    background: aliceblue;
+}
+#karakter {
+    z-index: 2;
+    position: absolute;
+}
+img{
+    height: 100px;
+    position: absolute;
+    z-index: 2;
+}
+.ladas{
+    background-image: url("lada.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.szornyes{
+    background-image: url("szorny.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.kincses{
+    background-image: url("kincs.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.ures{
+    background-image: url("ures.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
